@@ -1,32 +1,14 @@
 import pandas as pd
-import numpy as np
 import duckdb
 from fastmcp import FastMCP
 import os
-import matplotlib.pyplot as plt
-import seaborn as sns
-import io
-import base64
 from dotenv import load_dotenv 
 load_dotenv()
 
-# Set non-interactive backend for server environments
-plt.switch_backend('Agg')
 
 TABLE_NAME = 'data'
 
 mcp = FastMCP("My MCP Server")
-# ,
-#     dependencies=[
-#         "pandas", 
-#         "numpy", 
-#         "duckdb", 
-#         "tabulate", 
-#         "matplotlib", 
-#         "seaborn",
-#         "openai" 
-#     ]
-# )
 
 CSV_FILE_PATH = "Online Sales Data.csv"
 
