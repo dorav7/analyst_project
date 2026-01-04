@@ -93,7 +93,7 @@ The server will start and be ready to accept MCP connections.
 Use the provided test client to verify everything works:
 
 ```bash
-python my_client.py
+python open_ai_connectivity_test.py
 ```
 
 This will:
@@ -104,7 +104,7 @@ This will:
 ### Manual Testing Steps
 1. **Start the server**: `python my_server.py`
 2. **Check server logs**: Look for "Started server process" message
-3. **Test with client**: Run `python my_client.py` in another terminal
+3. **Test with client**: Run `python open_ai_connectivity_test.py` in another terminal
 4. **Verify output**: You should see schema data and AI analysis results
 
 ### Expected Output
