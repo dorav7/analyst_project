@@ -18,7 +18,7 @@ A powerful Model Context Protocol (MCP) server that provides comprehensive data 
 
 ### Prerequisites
 - Python 3.8+
-- OpenAI API key
+- OpenAI API key (required for AI analysis features)
 - CSV file for analysis
 
 ### Installation
@@ -31,17 +31,48 @@ A powerful Model Context Protocol (MCP) server that provides comprehensive data 
 
 2. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install fastmcp pandas numpy duckdb openai python-dotenv matplotlib seaborn
+   ```
+   
+   *Alternatively, create a requirements.txt file:*
+   ```
+   fastmcp>=2.14.0
+   pandas>=1.3.0
+   numpy>=1.21.0
+   duckdb>=0.8.0
+   openai>=1.0.0
+   python-dotenv>=0.19.0
+   matplotlib>=3.5.0
+   seaborn>=0.11.0
    ```
 
-3. **Set up environment variables**
-   ```bash
-   # Copy the example environment file
-   cp .env.example .env
+3. **Set up OpenAI API key**
    
-   # Edit .env and add your OpenAI API key
-   OPENAI_API_KEY=your_openai_api_key_here
+   **Option A: Using .env file (Recommended)**
+   ```bash
+   # Create a .env file
+   echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
    ```
+   
+   **Option B: Set environment variable directly**
+   ```bash
+   # Windows (PowerShell)
+   $env:OPENAI_API_KEY="your_openai_api_key_here"
+   
+   # Windows (Command Prompt)
+   set OPENAI_API_KEY=your_openai_api_key_here
+   
+   # macOS/Linux
+   export OPENAI_API_KEY="your_openai_api_key_here"
+   ```
+   
+   **How to get your OpenAI API key:**
+   1. Go to [OpenAI Platform](https://platform.openai.com/)
+   2. Sign up or log in to your account
+   3. Navigate to **API Keys** in the sidebar
+   4. Click "Create new secret key"
+   5. Copy the key and save it securely
+   6. Add credits to your account (minimum $5 required)
 
 4. **Prepare your data**
    - Place your CSV file in the project directory
@@ -56,17 +87,64 @@ python my_server.py
 
 The server will start and be ready to accept MCP connections.
 
+## 🧪 Testing Your Setup
+
+### Quick Test with Client
+Use the provided test client to verify everything works:
+
+```bash
+python my_client.py
+```
+
+This will:
+1. Test the server connection
+2. Verify data schema analysis
+3. Test AI analysis functionality
+
+### Manual Testing Steps
+1. **Start the server**: `python my_server.py`
+2. **Check server logs**: Look for "Started server process" message
+3. **Test with client**: Run `python my_client.py` in another terminal
+4. **Verify output**: You should see schema data and AI analysis results
+
+### Expected Output
+```
+============================================================
+Testing Data Analyst MCP Server
+============================================================
+
+1. Testing get_data_schema()...
+{
+  "table_name": "data",
+  "columns": [...],
+  "row_count": 240,
+  ...
+}
+
+4. Testing analyze_with_ai (Direct Call)...
+- summary
+[AI-generated summary of your data]
+
+- insights  
+[Key patterns and observations]
+
+- recommendations
+[Actionable suggestions]
+```
+
 ## 📋 Configuration
 
 ### Environment Variables
-- `OPENAI_API_KEY`: Required for AI analysis features
+- `OPENAI_API_KEY`: **Required** for AI analysis features (see setup above)
 - `CSV_FILE_PATH`: Path to your CSV file (default: `Online Sales Data.csv`)
 - `TABLE_NAME`: Name used for SQL table operations (default: `data`)
 
-### Server Settings
-- **Temperature**: Set to 0.3 for consistent, focused AI responses
+### OpenAI Configuration
+- **Model**: Uses `gpt-4o-mini` for cost-effective analysis
+- **Temperature**: Set to 0.3 for consistent, focused responses
 - **Max Tokens**: Limited to 1000 for efficient responses
-- **Data Truncation**: Automatically limits data to 4000 characters for API limits
+- **Data Limits**: Automatically truncates data to 4000 characters to stay within API limits
+- **Cost**: Approximately $0.15 per 1M tokens (very affordable for data analysis)
 
 ## 🔧 Available Tools
 
@@ -185,13 +263,17 @@ The server automatically handles:
 - Ensure CSV file exists in the correct location
 
 **"OPENAI_API_KEY not set"**
-- Add your API key to `.env` file
-- Restart the server after updating
+- Ensure you've set up your API key using one of the methods above
+- Verify the .env file exists and contains your key
+- Restart the server after updating environment variables
+- Check that your OpenAI account has credits available
 
 **Rate limit errors**
-- Wait a moment between requests
-- Reduce data size in queries
-- Check OpenAI billing status
+- OpenAI has rate limits (typically 60 requests/minute for gpt-4o-mini)
+- Wait a moment between requests if you hit limits
+- Reduce data size in queries (server auto-truncates to 4000 chars)
+- Check your OpenAI billing and usage
+- Consider upgrading your account for higher limits
 
 **SQL query errors**
 - Use correct table name (`data` by default)
@@ -206,13 +288,25 @@ The server includes debug prints for AI analysis:
 
 ## 📦 Dependencies
 
+### Core Dependencies
+```bash
+fastmcp>=2.14.0      # MCP server framework
+pandas>=1.3.0        # Data manipulation
+numpy>=1.21.0        # Numerical operations
+duckdb>=0.8.0        # In-memory SQL database
+openai>=1.0.0        # OpenAI API client
+python-dotenv>=0.19.0 # Environment variable management
 ```
-pandas>=1.3.0
-numpy>=1.21.0
-fastmcp>=0.1.0
-duckdb>=0.8.0
-tabulate>=0.9.0
-openai>=1.0.0
+
+### Optional Dependencies (for enhanced features)
+```bash
+matplotlib>=3.5.0    # Chart generation (future feature)
+seaborn>=0.11.0      # Statistical visualization
+```
+
+### Installation Command
+```bash
+pip install fastmcp pandas numpy duckdb openai python-dotenv matplotlib seaborn
 ```
 
 ## 🤝 Contributing
