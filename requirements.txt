@@ -1,0 +1,8 @@
+pandas
+numpy
+fastmcp
+duckdb
+tabulate
+matplotlib
+seaborn
+openai
