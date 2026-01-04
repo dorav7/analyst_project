@@ -111,7 +111,7 @@ def analyze_with_ai(data_context: str, user_question: str = "") -> str:
         print("DEBUG: Data was truncated to 4000 chars.")
 
     try:
-        client = OpenAI(api_key=api_key)
+        client = OpenAI()
         
         response = client.chat.completions.create(
             model="gpt-4o-mini", 
