@@ -14,7 +14,29 @@ A powerful Model Context Protocol (MCP) server that provides comprehensive data 
 2. **`run_sql_query`** - Execute SQL queries on your data
 3. **`analyze_with_ai`** - AI-powered data analysis with structured output
 
-## 🚀 Quick Start
+## � Data Overview
+
+The server is pre-configured to analyze the `Online Sales Data.csv` dataset. This file contains transactional records of online sales across various product categories.
+
+#### **Dataset Columns**
+| Column Name | Type | Description |
+| :--- | :--- | :--- |
+| **Date** | Date | The date of the transaction (useful for trend analysis). |
+| **Product Category** | String | High-level category (e.g., Electronics, Clothing). |
+| **Product Name** | String | Specific item name (e.g., "iPhone 14"). |
+| **Units Sold** | Integer | Quantity of items purchased in the transaction. |
+| **Unit Price** | Float | Price per single unit. |
+| **Total Revenue** | Float | Total transaction value (`Units Sold` * `Unit Price`). |
+| **Region** | String | Geographic region of the transaction (e.g., North America). |
+| **Payment Method** | String | Method used for payment (e.g., Credit Card, PayPal). |
+
+#### **Initial Observations & Analytical Potential**
+1.  **Calculated Fields**: The `Total Revenue` is a direct derivative of units and price. This relationship allows for validating data integrity.
+2.  **Temporal Trends**: The `Date` column enables time-series analysis to identify monthly sales spikes, seasonality, or growth trends.
+3.  **Categorical Splits**: Data is highly segmentable by `Region` and `Payment Method`, allowing for deep dives into consumer behavior across different demographics.
+4.  **Product Performance**: Granularity allows for analysis at both the Category level (Macro) and specific Product level (Micro).
+
+## �🚀 Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -145,6 +167,99 @@ Testing Data Analyst MCP Server
 - **Max Tokens**: Limited to 1000 for efficient responses
 - **Data Limits**: Automatically truncates data to 4000 characters to stay within API limits
 - **Cost**: Approximately $0.15 per 1M tokens (very affordable for data analysis)
+
+## 🤖 Dify Agent Integration
+
+This section guides you through configuring a Dify Agent to work seamlessly with your MCP server for intelligent data analysis.
+
+### Agent Configuration
+
+**Model Settings:**
+- **Model**: GPT-4o
+- **Temperature**: 0 (Strictly deterministic for consistent results)
+
+**Required Tools:**
+- **MCP Server Connection**: Connect this MCP Server as a Custom Tool
+- **ANTV Plugin**: Must be enabled for data visualizations
+
+### System Prompt (Instructions)
+
+Copy and paste the following system instructions into your Dify Agent configuration:
+
+```text
+### ROLE
+You are a Senior Data Analyst Agent. Your goal is to derive actionable insights from data, visualize trends, and provide strategic recommendations. You are precise, objective, and strictly data-driven.
+
+### AVAILABLE TOOLS
+You have access to the following tools via MCP and Plugins:
+1. get_data_schema: USE THIS FIRST. Returns the database schema (table names, columns, and types).
+2. run_sql_query: Executes SQL queries to retrieve data. READ-ONLY operations. Never guess or predict column or table names - always refer to the schema obtained with get_data_schema.
+3. ANTV: Generates visualizations/charts based on the data.
+4. analyze_with_ai: provide user with detailed llm-generated analysis and recommendations.
+
+### WORKFLOW
+1. *Understand Context:* Always start by calling get_data_schema to understand the database structure if you don't already know it.
+2. *Query Data:* Construct and execute optimized SQL queries using run_sql_query to answer the user's question.
+3. *Analyze & Visualize:* Analyze the results. When ask to provide visualization, use ANTV plugin. When unsure of what data to visuzalize, ask suitable question 
+4. *Bussiness Advice:* When asked by the user for bussiness analysis or advice, use a summary of current context and obtained data and refer to the analyze_with_ai tool to provide such an anlysis. you may rephrase the user question to be more precise. answer should always be in the format of the three subtitles provided - summary, insights, recommendations 
+
+
+### GUIDELINES & CONSTRAINTS
+* *Code Language:* All code snippets, comments within code, and SQL queries must be in *ENGLISH ONLY*.
+* *Data Integrity:* Do not invent data. If the query returns no results, state that clearly in the Summary. Never guess or predict column or table names - always refer to the schema obtained with get_data_schema.
+* *Visualization:* When using ANTV, ensure the data passed to the visualization tool is correctly formatted according to the tool's documentation.
+* *Tone:* Professional, analytical, and clear.
+* *Headlines* make headlines appear larger than the subtitles and make them bold
+```
+
+### Setup Steps
+
+1. **Create Dify Agent**
+   - Go to your Dify workspace
+   - Create a new Agent with the configuration above
+
+2. **Connect MCP Server**
+   - Add MCP Server as a custom tool
+   - Configure the connection to your running MCP server endpoint
+   - Ensure the server is accessible from your Dify environment
+
+3. **Enable ANTV Plugin**
+   - Activate the ANTV plugin in your agent's tool configuration
+   - This is essential for generating data visualizations
+
+4. **Test Integration**
+   - Start your MCP server: `python my_server.py`
+   - Test with sample queries like:
+     - "Show me the sales data schema"
+     - "What are the total sales by region?"
+     - "Create a chart of product performance"
+     - "Provide business insights from the sales data"
+
+### Expected Agent Behavior
+
+When properly configured, your Dify Agent will:
+- **Automatically discover data schema** before making queries
+- **Generate accurate SQL queries** based on actual table structure
+- **Create visualizations** using ANTV when appropriate
+- **Provide structured business analysis** using the analyze_with_ai tool
+- **Follow the strict workflow** for consistent, reliable results
+
+### Troubleshooting Dify Integration
+
+**"MCP Server not responding"**
+- Ensure your MCP server is running and accessible
+- Check network connectivity between Dify and your server
+- Verify the MCP endpoint URL in Dify configuration
+
+**"ANTV plugin errors"**
+- Confirm ANTV plugin is properly enabled
+- Check data format being passed to visualization tool
+- Ensure data is properly structured for chart generation
+
+**"SQL query failures"**
+- Verify the agent is calling get_data_schema first
+- Check that table and column names match the schema
+- Ensure SQL syntax is valid and uses proper quoting
 
 ## 🔧 Available Tools
 
