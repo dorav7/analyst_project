@@ -99,11 +99,11 @@ def analyze_with_ai(data_context: str, user_question: str = "") -> str:
             model="gpt-4o-mini", 
             messages=[
                 {"role": "system", "content": """You are a helpful data analyst. Always format your response with these exact subtitles:
-- summary
-- insights  
-- recommendations
+                - summary
+                - insights  
+                - recommendations
 
-Under each subtitle, provide relevant content. Be concise and specific."""},
+              Under each subtitle, provide relevant content. Be concise and specific."""},
                 {"role": "user", "content": f"Question: {user_question}\nData:\n{data_context}"}
             ],
             temperature=0.3,

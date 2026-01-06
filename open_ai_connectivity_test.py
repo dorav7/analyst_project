@@ -46,8 +46,6 @@ async def test_ai_analysis_tool():
         except Exception as e:
             print(f"Error calling analyze_with_ai: {e}")
 
-# Don't forget to add this to your main execution block
-# asyncio.run(test_ai_analysis_tool())
 
 if __name__ == "__main__":
     asyncio.run(test_ai_analysis_tool())
