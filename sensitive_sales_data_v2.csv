@@ -1,0 +1,501 @@
+Transaction_ID,Date,Customer_ID,Customer_Name,Email,Phone_Number,Address,Credit_Card,Category,Amount,Payment_Method
+TXN-10000,2025-02-14,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Books,794.42,Debit Card
+TXN-10001,2025-10-11,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Automotive,320.37,Credit Card
+TXN-10002,2025-12-13,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Automotive,639.94,Bank Transfer
+TXN-10003,2025-10-03,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Automotive,535.7,Debit Card
+TXN-10004,2025-05-04,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Fashion,343.28,Debit Card
+TXN-10005,2025-02-15,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Fashion,524.53,Debit Card
+TXN-10006,2025-07-12,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Sports,562.93,PayPal
+TXN-10007,2025-06-26,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Books,932.53,Bank Transfer
+TXN-10008,2025-01-30,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Home & Garden,1495.02,Bank Transfer
+TXN-10009,2025-05-19,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Toys & Games,1019.31,PayPal
+TXN-10010,2025-01-29,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Automotive,465.11,Debit Card
+TXN-10011,2025-07-18,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Fashion,294.55,Bank Transfer
+TXN-10012,2025-07-01,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Toys & Games,1471.97,Debit Card
+TXN-10013,2025-06-08,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Sports,273.46,Bank Transfer
+TXN-10014,2025-12-26,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Automotive,936.66,Debit Card
+TXN-10015,2025-06-09,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Sports,1017.84,Bank Transfer
+TXN-10016,2025-03-15,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Electronics,941.33,Credit Card
+TXN-10017,2025-07-01,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Home & Garden,1051.02,PayPal
+TXN-10018,2025-03-04,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Books,138.69,Debit Card
+TXN-10019,2025-05-17,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Automotive,1298.13,Bank Transfer
+TXN-10020,2025-01-01,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Home & Garden,224.79,Credit Card
+TXN-10021,2025-03-24,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Sports,343.24,Bank Transfer
+TXN-10022,2025-10-01,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Automotive,1445.34,Credit Card
+TXN-10023,2025-04-15,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Automotive,437.66,PayPal
+TXN-10024,2025-01-14,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Automotive,1153.57,PayPal
+TXN-10025,2025-09-28,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Automotive,1113.28,Credit Card
+TXN-10026,2025-03-20,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Fashion,700.32,Debit Card
+TXN-10027,2025-11-19,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Sports,1259.99,Credit Card
+TXN-10028,2025-03-11,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Automotive,1479.23,Debit Card
+TXN-10029,2025-05-27,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Electronics,1113.47,Credit Card
+TXN-10030,2025-12-23,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Electronics,1303.76,Credit Card
+TXN-10031,2025-04-26,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Electronics,945.94,Credit Card
+TXN-10032,2025-12-22,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Automotive,1019.13,PayPal
+TXN-10033,2025-01-02,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Fashion,1316.94,PayPal
+TXN-10034,2025-02-26,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Toys & Games,1262.2,PayPal
+TXN-10035,2025-10-15,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Automotive,918.17,Bank Transfer
+TXN-10036,2025-05-11,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Home & Garden,1329.87,Credit Card
+TXN-10037,2025-10-26,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Books,753.86,Credit Card
+TXN-10038,2025-11-30,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Home & Garden,294.9,Bank Transfer
+TXN-10039,2025-06-23,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Books,940.32,Bank Transfer
+TXN-10040,2025-05-14,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Automotive,718.39,Credit Card
+TXN-10041,2025-12-02,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Sports,1088.77,PayPal
+TXN-10042,2025-03-27,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Home & Garden,967.37,Debit Card
+TXN-10043,2025-04-18,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Fashion,820.84,Debit Card
+TXN-10044,2025-11-19,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Books,1270.6,Bank Transfer
+TXN-10045,2025-06-20,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Sports,590.92,Credit Card
+TXN-10046,2025-05-28,CUST-1827,Daniel Johnson,daniel.johnson85@hotmail.com,555-880-2207,"856 Pine St, Chicago, USA",4034-2629-1582-6476,Electronics,199.36,Credit Card
+TXN-10047,2025-01-28,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Sports,1420.52,Bank Transfer
+TXN-10048,2025-08-05,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Sports,517.67,Credit Card
+TXN-10049,2025-04-30,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Books,742.5,PayPal
+TXN-10050,2025-04-22,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Fashion,1448.78,Bank Transfer
+TXN-10051,2025-07-10,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Electronics,1027.4,Bank Transfer
+TXN-10052,2025-08-03,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Sports,631.14,Debit Card
+TXN-10053,2025-03-03,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Home & Garden,552.08,PayPal
+TXN-10054,2025-07-06,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Automotive,1150.62,Bank Transfer
+TXN-10055,2025-12-23,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Sports,711.67,Bank Transfer
+TXN-10056,2025-12-11,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Toys & Games,616.0,Debit Card
+TXN-10057,2025-12-16,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Automotive,691.3,Credit Card
+TXN-10058,2025-03-26,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Automotive,1104.12,Credit Card
+TXN-10059,2025-01-09,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Automotive,1141.57,Credit Card
+TXN-10060,2025-07-17,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Automotive,384.1,Credit Card
+TXN-10061,2025-07-17,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Electronics,447.35,Bank Transfer
+TXN-10062,2025-10-11,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Sports,902.63,PayPal
+TXN-10063,2025-07-04,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Books,544.65,Debit Card
+TXN-10064,2025-06-05,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Automotive,215.78,PayPal
+TXN-10065,2025-10-04,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Toys & Games,914.43,Bank Transfer
+TXN-10066,2025-08-26,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Fashion,1201.87,Debit Card
+TXN-10067,2025-08-21,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Books,310.23,PayPal
+TXN-10068,2025-05-09,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Toys & Games,1167.09,Debit Card
+TXN-10069,2025-02-19,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Home & Garden,617.45,Debit Card
+TXN-10070,2025-03-16,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Automotive,750.41,PayPal
+TXN-10071,2025-02-21,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Toys & Games,642.63,PayPal
+TXN-10072,2025-08-31,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Fashion,676.46,PayPal
+TXN-10073,2025-09-14,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Sports,1454.19,PayPal
+TXN-10074,2025-01-22,CUST-7905,David Rodriguez,david.rodriguez59@hotmail.com,555-604-5400,"786 Oak Ln, Los Angeles, USA",4518-4993-6085-5075,Books,1334.36,Credit Card
+TXN-10075,2025-04-24,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Fashion,1478.73,PayPal
+TXN-10076,2025-02-21,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Electronics,331.7,Credit Card
+TXN-10077,2025-08-19,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Books,1108.21,Debit Card
+TXN-10078,2025-03-17,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Fashion,194.57,Debit Card
+TXN-10079,2025-12-21,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Automotive,408.91,Bank Transfer
+TXN-10080,2025-09-12,CUST-7905,David Rodriguez,david.rodriguez59@hotmail.com,555-604-5400,"786 Oak Ln, Los Angeles, USA",4518-4993-6085-5075,Automotive,1170.14,Bank Transfer
+TXN-10081,2025-12-24,CUST-3516,Robert Garcia,robert.garcia68@gmail.com,555-714-6645,"332 Pine St, Los Angeles, USA",4309-5576-6667-5309,Fashion,122.57,Bank Transfer
+TXN-10082,2025-09-21,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Books,1175.06,PayPal
+TXN-10083,2025-10-16,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Home & Garden,717.35,Credit Card
+TXN-10084,2025-04-06,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Fashion,299.96,PayPal
+TXN-10085,2025-01-06,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Fashion,1130.36,Bank Transfer
+TXN-10086,2025-04-11,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Toys & Games,1125.76,Debit Card
+TXN-10087,2025-08-29,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Automotive,746.82,Debit Card
+TXN-10088,2025-08-12,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Books,1444.91,PayPal
+TXN-10089,2025-06-25,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Fashion,256.07,Credit Card
+TXN-10090,2025-04-02,CUST-5820,Sarah Davis,sarah.davis94@company.net,555-780-2894,"885 Broadway, New York, USA",4780-2146-7646-8437,Toys & Games,389.89,Bank Transfer
+TXN-10091,2025-01-12,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Automotive,618.41,Credit Card
+TXN-10092,2025-05-05,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Toys & Games,722.24,Credit Card
+TXN-10093,2025-05-29,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Electronics,456.77,Bank Transfer
+TXN-10094,2025-12-10,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Electronics,614.36,Debit Card
+TXN-10095,2025-05-04,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Home & Garden,1164.38,Bank Transfer
+TXN-10096,2025-04-22,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Electronics,948.68,PayPal
+TXN-10097,2025-06-07,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Sports,98.97,Bank Transfer
+TXN-10098,2025-03-07,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Books,70.64,Credit Card
+TXN-10099,2025-04-17,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Home & Garden,627.57,Debit Card
+TXN-10100,2025-03-31,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Toys & Games,379.38,Debit Card
+TXN-10101,2025-02-20,CUST-3516,Robert Garcia,robert.garcia68@gmail.com,555-714-6645,"332 Pine St, Los Angeles, USA",4309-5576-6667-5309,Automotive,1363.05,Debit Card
+TXN-10102,2025-03-20,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Home & Garden,828.55,Bank Transfer
+TXN-10103,2025-01-28,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Automotive,1120.91,Debit Card
+TXN-10104,2025-02-24,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Electronics,892.36,Debit Card
+TXN-10105,2025-10-22,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Sports,34.79,Bank Transfer
+TXN-10106,2025-11-14,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Sports,634.35,Credit Card
+TXN-10107,2025-05-10,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Fashion,715.69,Credit Card
+TXN-10108,2025-03-29,CUST-4186,Jane Davis,jane.davis70@company.net,555-379-6884,"127 Broadway, Chicago, USA",4772-8175-8363-9031,Books,208.0,PayPal
+TXN-10109,2025-05-23,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Automotive,229.86,Credit Card
+TXN-10110,2025-10-15,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Electronics,1466.64,Debit Card
+TXN-10111,2025-08-03,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Toys & Games,1227.97,Debit Card
+TXN-10112,2025-04-08,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Sports,312.47,Debit Card
+TXN-10113,2025-03-30,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Electronics,552.99,Debit Card
+TXN-10114,2025-02-04,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Sports,550.93,Bank Transfer
+TXN-10115,2025-12-03,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Electronics,59.88,Bank Transfer
+TXN-10116,2025-09-13,CUST-5820,Sarah Davis,sarah.davis94@company.net,555-780-2894,"885 Broadway, New York, USA",4780-2146-7646-8437,Automotive,850.36,Bank Transfer
+TXN-10117,2025-03-27,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Toys & Games,280.87,Bank Transfer
+TXN-10118,2025-02-17,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Fashion,761.15,Credit Card
+TXN-10119,2025-04-08,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Books,1003.26,Bank Transfer
+TXN-10120,2025-07-26,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Home & Garden,1280.91,Credit Card
+TXN-10121,2025-12-08,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Automotive,466.52,PayPal
+TXN-10122,2025-12-29,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Sports,122.18,Debit Card
+TXN-10123,2025-08-13,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Sports,1267.95,PayPal
+TXN-10124,2025-04-06,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Electronics,285.12,PayPal
+TXN-10125,2025-10-20,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Sports,737.08,Bank Transfer
+TXN-10126,2025-02-23,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Automotive,1400.11,Debit Card
+TXN-10127,2025-12-26,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Home & Garden,215.34,Credit Card
+TXN-10128,2025-05-24,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Fashion,1216.61,Bank Transfer
+TXN-10129,2025-05-05,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Automotive,466.5,Bank Transfer
+TXN-10130,2025-10-16,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Toys & Games,746.26,Credit Card
+TXN-10131,2025-06-04,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Fashion,414.28,Credit Card
+TXN-10132,2025-07-23,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Home & Garden,1158.54,PayPal
+TXN-10133,2025-09-12,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Automotive,367.18,Debit Card
+TXN-10134,2025-05-07,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Sports,237.31,Debit Card
+TXN-10135,2025-10-21,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Toys & Games,821.76,PayPal
+TXN-10136,2025-01-17,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Home & Garden,1351.01,Debit Card
+TXN-10137,2025-04-14,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Toys & Games,1145.37,Credit Card
+TXN-10138,2025-02-15,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Automotive,124.65,Bank Transfer
+TXN-10139,2025-11-09,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Toys & Games,389.57,PayPal
+TXN-10140,2025-09-24,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Toys & Games,681.51,PayPal
+TXN-10141,2025-10-16,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Fashion,699.87,PayPal
+TXN-10142,2025-01-28,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Automotive,884.34,Bank Transfer
+TXN-10143,2025-09-15,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Sports,1285.29,Debit Card
+TXN-10144,2025-10-23,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Sports,355.32,Credit Card
+TXN-10145,2025-04-30,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Electronics,1128.98,PayPal
+TXN-10146,2025-08-06,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Fashion,408.3,Bank Transfer
+TXN-10147,2025-04-21,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Automotive,681.23,Bank Transfer
+TXN-10148,2025-02-23,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Toys & Games,208.55,Debit Card
+TXN-10149,2025-01-23,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Electronics,1440.63,Bank Transfer
+TXN-10150,2025-11-12,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Home & Garden,50.36,Bank Transfer
+TXN-10151,2025-03-30,CUST-5820,Sarah Davis,sarah.davis94@company.net,555-780-2894,"885 Broadway, New York, USA",4780-2146-7646-8437,Fashion,196.34,Bank Transfer
+TXN-10152,2025-07-19,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Electronics,241.7,Bank Transfer
+TXN-10153,2025-12-13,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Electronics,70.75,Debit Card
+TXN-10154,2025-04-02,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Books,126.69,PayPal
+TXN-10155,2025-07-24,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Sports,1075.65,PayPal
+TXN-10156,2025-01-30,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Electronics,157.66,Credit Card
+TXN-10157,2025-12-30,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Books,637.3,Credit Card
+TXN-10158,2025-11-18,CUST-1827,Daniel Johnson,daniel.johnson85@hotmail.com,555-880-2207,"856 Pine St, Chicago, USA",4034-2629-1582-6476,Books,982.19,Bank Transfer
+TXN-10159,2025-06-19,CUST-4186,Jane Davis,jane.davis70@company.net,555-379-6884,"127 Broadway, Chicago, USA",4772-8175-8363-9031,Books,744.84,PayPal
+TXN-10160,2025-09-21,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Home & Garden,309.71,Debit Card
+TXN-10161,2025-08-19,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Books,969.71,PayPal
+TXN-10162,2025-04-26,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Books,1312.61,Bank Transfer
+TXN-10163,2025-07-09,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Home & Garden,581.72,PayPal
+TXN-10164,2025-04-11,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Toys & Games,497.99,PayPal
+TXN-10165,2025-04-24,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Automotive,844.2,Debit Card
+TXN-10166,2025-03-06,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Automotive,1252.81,Credit Card
+TXN-10167,2025-05-26,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Electronics,1003.51,Debit Card
+TXN-10168,2025-01-17,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Home & Garden,1406.99,Bank Transfer
+TXN-10169,2025-03-12,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Toys & Games,670.74,Debit Card
+TXN-10170,2025-05-05,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Books,1292.43,Bank Transfer
+TXN-10171,2025-05-05,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Electronics,1415.16,Bank Transfer
+TXN-10172,2025-08-20,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Electronics,427.04,Debit Card
+TXN-10173,2025-01-03,CUST-7905,David Rodriguez,david.rodriguez59@hotmail.com,555-604-5400,"786 Oak Ln, Los Angeles, USA",4518-4993-6085-5075,Home & Garden,281.98,Debit Card
+TXN-10174,2025-02-28,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Toys & Games,1023.43,Bank Transfer
+TXN-10175,2025-10-21,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Sports,128.11,Credit Card
+TXN-10176,2025-10-31,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Sports,1234.08,PayPal
+TXN-10177,2025-08-15,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Toys & Games,1386.61,Debit Card
+TXN-10178,2025-03-11,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Toys & Games,874.8,Credit Card
+TXN-10179,2025-10-30,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Sports,134.86,Credit Card
+TXN-10180,2025-02-04,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Automotive,944.25,Bank Transfer
+TXN-10181,2025-04-08,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Toys & Games,532.77,Credit Card
+TXN-10182,2025-07-02,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Fashion,946.42,Credit Card
+TXN-10183,2025-11-24,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Electronics,1051.31,Bank Transfer
+TXN-10184,2025-08-21,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Home & Garden,1482.83,Bank Transfer
+TXN-10185,2025-02-08,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Books,108.76,Debit Card
+TXN-10186,2025-05-16,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Electronics,260.05,Debit Card
+TXN-10187,2025-12-17,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Sports,1068.41,PayPal
+TXN-10188,2025-12-11,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Electronics,1220.1,PayPal
+TXN-10189,2025-11-10,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Home & Garden,1058.42,Credit Card
+TXN-10190,2025-03-16,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Automotive,1336.06,Debit Card
+TXN-10191,2025-09-07,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Automotive,469.5,Bank Transfer
+TXN-10192,2025-12-20,CUST-7905,David Rodriguez,david.rodriguez59@hotmail.com,555-604-5400,"786 Oak Ln, Los Angeles, USA",4518-4993-6085-5075,Automotive,1417.11,Credit Card
+TXN-10193,2025-12-13,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Books,772.99,Bank Transfer
+TXN-10194,2025-01-12,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Sports,187.25,Bank Transfer
+TXN-10195,2025-08-19,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Books,457.74,Credit Card
+TXN-10196,2025-02-01,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Home & Garden,1004.5,Credit Card
+TXN-10197,2025-06-26,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Fashion,472.69,Bank Transfer
+TXN-10198,2025-09-18,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Books,251.77,Credit Card
+TXN-10199,2025-01-31,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Toys & Games,894.21,Credit Card
+TXN-10200,2025-05-20,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Automotive,1113.08,Bank Transfer
+TXN-10201,2025-03-20,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Home & Garden,920.04,Debit Card
+TXN-10202,2025-06-04,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Toys & Games,1261.64,Credit Card
+TXN-10203,2025-01-30,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Books,1270.78,PayPal
+TXN-10204,2025-08-25,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Home & Garden,139.17,Debit Card
+TXN-10205,2025-10-19,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Toys & Games,1467.42,PayPal
+TXN-10206,2025-01-12,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Home & Garden,299.6,Debit Card
+TXN-10207,2025-06-06,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Electronics,1390.1,Debit Card
+TXN-10208,2025-12-27,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Books,474.42,Bank Transfer
+TXN-10209,2025-11-13,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Toys & Games,1069.72,Debit Card
+TXN-10210,2025-11-28,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Toys & Games,624.14,Bank Transfer
+TXN-10211,2025-09-04,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Home & Garden,1437.61,PayPal
+TXN-10212,2025-10-22,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Home & Garden,1286.33,Bank Transfer
+TXN-10213,2025-04-29,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Fashion,1381.3,PayPal
+TXN-10214,2025-10-20,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Fashion,1084.75,Debit Card
+TXN-10215,2025-11-12,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Books,768.48,Bank Transfer
+TXN-10216,2025-11-15,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Sports,265.5,Credit Card
+TXN-10217,2025-07-21,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Sports,431.89,Debit Card
+TXN-10218,2025-05-08,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Toys & Games,1406.42,Credit Card
+TXN-10219,2025-06-11,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Books,516.78,Debit Card
+TXN-10220,2025-03-01,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Toys & Games,1370.12,Bank Transfer
+TXN-10221,2025-02-28,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Toys & Games,38.17,Bank Transfer
+TXN-10222,2025-06-13,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Sports,367.61,Credit Card
+TXN-10223,2025-05-07,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Books,1455.36,Credit Card
+TXN-10224,2025-04-27,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Home & Garden,1297.59,Credit Card
+TXN-10225,2025-03-15,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Sports,1062.08,Credit Card
+TXN-10226,2025-06-18,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Home & Garden,223.76,Bank Transfer
+TXN-10227,2025-05-10,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Home & Garden,1272.49,Bank Transfer
+TXN-10228,2025-10-17,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Fashion,958.16,Credit Card
+TXN-10229,2025-09-21,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Toys & Games,1055.65,Debit Card
+TXN-10230,2025-08-31,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Fashion,714.54,PayPal
+TXN-10231,2025-11-08,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Automotive,660.71,PayPal
+TXN-10232,2025-09-23,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Electronics,1032.5,PayPal
+TXN-10233,2025-01-12,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Sports,437.49,PayPal
+TXN-10234,2025-02-13,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Books,144.03,Bank Transfer
+TXN-10235,2025-03-20,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Sports,138.85,Debit Card
+TXN-10236,2025-11-05,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Books,211.98,PayPal
+TXN-10237,2025-01-19,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Home & Garden,1470.34,Debit Card
+TXN-10238,2025-03-21,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Fashion,1324.44,Debit Card
+TXN-10239,2025-12-17,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Books,890.21,Bank Transfer
+TXN-10240,2025-08-05,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Sports,1480.54,PayPal
+TXN-10241,2025-04-06,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Electronics,1391.44,PayPal
+TXN-10242,2025-02-18,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Toys & Games,547.97,Debit Card
+TXN-10243,2025-05-22,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Books,1298.33,Debit Card
+TXN-10244,2025-09-06,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Automotive,1080.2,Bank Transfer
+TXN-10245,2025-08-04,CUST-5820,Sarah Davis,sarah.davis94@company.net,555-780-2894,"885 Broadway, New York, USA",4780-2146-7646-8437,Toys & Games,469.61,PayPal
+TXN-10246,2025-08-18,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Books,442.05,PayPal
+TXN-10247,2025-07-16,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Automotive,427.19,PayPal
+TXN-10248,2025-07-20,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Sports,146.77,Bank Transfer
+TXN-10249,2025-04-02,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Home & Garden,390.56,Bank Transfer
+TXN-10250,2025-04-12,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Sports,776.49,Debit Card
+TXN-10251,2025-08-13,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Fashion,488.81,PayPal
+TXN-10252,2025-03-10,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Sports,16.83,Bank Transfer
+TXN-10253,2025-04-11,CUST-1827,Daniel Johnson,daniel.johnson85@hotmail.com,555-880-2207,"856 Pine St, Chicago, USA",4034-2629-1582-6476,Toys & Games,263.31,Bank Transfer
+TXN-10254,2025-07-28,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Automotive,262.67,PayPal
+TXN-10255,2025-10-30,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Automotive,258.08,Credit Card
+TXN-10256,2025-02-16,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Sports,87.03,Credit Card
+TXN-10257,2025-08-28,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Books,1411.67,Credit Card
+TXN-10258,2025-11-23,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Sports,370.63,Bank Transfer
+TXN-10259,2025-03-04,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Fashion,1164.07,Credit Card
+TXN-10260,2025-07-05,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Books,666.6,PayPal
+TXN-10261,2025-05-31,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Fashion,1399.79,PayPal
+TXN-10262,2025-09-15,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Automotive,689.81,Bank Transfer
+TXN-10263,2025-09-27,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Home & Garden,660.31,Debit Card
+TXN-10264,2025-01-18,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Toys & Games,984.83,Bank Transfer
+TXN-10265,2025-08-05,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Books,822.31,Bank Transfer
+TXN-10266,2025-11-23,CUST-7905,David Rodriguez,david.rodriguez59@hotmail.com,555-604-5400,"786 Oak Ln, Los Angeles, USA",4518-4993-6085-5075,Fashion,15.06,Debit Card
+TXN-10267,2025-05-07,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Toys & Games,1278.78,Bank Transfer
+TXN-10268,2025-09-18,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Toys & Games,1332.26,PayPal
+TXN-10269,2025-11-29,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Electronics,59.53,PayPal
+TXN-10270,2025-02-02,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Books,1022.86,Credit Card
+TXN-10271,2025-03-21,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Automotive,283.38,Credit Card
+TXN-10272,2025-01-01,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Fashion,1465.12,Bank Transfer
+TXN-10273,2025-11-18,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Sports,229.88,Debit Card
+TXN-10274,2025-10-19,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Fashion,700.65,Credit Card
+TXN-10275,2025-03-10,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Books,200.79,Bank Transfer
+TXN-10276,2025-07-16,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Books,947.11,Debit Card
+TXN-10277,2025-02-06,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Books,931.39,Bank Transfer
+TXN-10278,2025-08-17,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Electronics,532.12,Debit Card
+TXN-10279,2025-10-07,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Automotive,1165.78,Debit Card
+TXN-10280,2026-01-01,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Electronics,813.61,Debit Card
+TXN-10281,2025-07-15,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Electronics,451.67,Bank Transfer
+TXN-10282,2025-04-23,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Home & Garden,272.03,PayPal
+TXN-10283,2025-01-25,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Books,288.33,Debit Card
+TXN-10284,2025-10-07,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Automotive,417.55,Debit Card
+TXN-10285,2025-04-11,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Sports,1440.46,Credit Card
+TXN-10286,2025-07-12,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Home & Garden,447.47,Debit Card
+TXN-10287,2025-04-02,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Fashion,1086.16,Credit Card
+TXN-10288,2025-04-29,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Home & Garden,1457.17,PayPal
+TXN-10289,2025-01-05,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Fashion,237.86,Credit Card
+TXN-10290,2025-11-22,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Electronics,1285.74,Bank Transfer
+TXN-10291,2025-08-24,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Fashion,77.03,Bank Transfer
+TXN-10292,2025-12-14,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Electronics,496.53,Debit Card
+TXN-10293,2025-03-21,CUST-8253,Jane Garcia,jane.garcia51@yahoo.com,555-722-4597,"599 Oak Ln, Chicago, USA",4670-1453-2624-9125,Fashion,343.46,Credit Card
+TXN-10294,2025-12-18,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Electronics,1408.45,PayPal
+TXN-10295,2025-04-19,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Fashion,1287.61,Bank Transfer
+TXN-10296,2025-12-29,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Home & Garden,333.37,Credit Card
+TXN-10297,2025-11-13,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Fashion,943.23,Bank Transfer
+TXN-10298,2025-01-02,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Fashion,709.54,Debit Card
+TXN-10299,2025-09-13,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Electronics,1155.52,PayPal
+TXN-10300,2025-10-09,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Electronics,511.79,Credit Card
+TXN-10301,2025-12-01,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Home & Garden,742.49,PayPal
+TXN-10302,2025-04-26,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Toys & Games,221.63,Debit Card
+TXN-10303,2025-01-09,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Books,760.14,Debit Card
+TXN-10304,2025-08-05,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Fashion,616.15,Bank Transfer
+TXN-10305,2025-05-17,CUST-4186,Jane Davis,jane.davis70@company.net,555-379-6884,"127 Broadway, Chicago, USA",4772-8175-8363-9031,Electronics,1396.36,Debit Card
+TXN-10306,2025-09-16,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Toys & Games,1226.71,PayPal
+TXN-10307,2025-02-28,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Home & Garden,454.41,PayPal
+TXN-10308,2025-11-08,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Books,681.36,Debit Card
+TXN-10309,2025-03-12,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Electronics,1454.13,Debit Card
+TXN-10310,2025-02-22,CUST-3516,Robert Garcia,robert.garcia68@gmail.com,555-714-6645,"332 Pine St, Los Angeles, USA",4309-5576-6667-5309,Electronics,1455.03,PayPal
+TXN-10311,2025-01-21,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Home & Garden,688.85,Bank Transfer
+TXN-10312,2025-03-12,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Automotive,221.43,Bank Transfer
+TXN-10313,2025-07-04,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Books,1402.86,Debit Card
+TXN-10314,2025-01-25,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Toys & Games,1080.49,Credit Card
+TXN-10315,2025-08-14,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Sports,292.77,PayPal
+TXN-10316,2025-01-11,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Automotive,398.57,PayPal
+TXN-10317,2025-11-15,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Electronics,47.27,Bank Transfer
+TXN-10318,2025-12-31,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Automotive,749.36,Credit Card
+TXN-10319,2025-10-23,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Toys & Games,1280.74,PayPal
+TXN-10320,2025-04-10,CUST-3176,Emily Smith,emily.smith48@gmail.com,555-959-3346,"632 Oak Ln, Chicago, USA",4355-9350-8818-1254,Home & Garden,1255.42,PayPal
+TXN-10321,2025-06-25,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Toys & Games,1160.96,Debit Card
+TXN-10322,2025-07-23,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Electronics,668.33,Debit Card
+TXN-10323,2025-12-13,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Electronics,543.53,Credit Card
+TXN-10324,2025-12-02,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Electronics,1120.75,PayPal
+TXN-10325,2025-10-28,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Sports,367.67,Bank Transfer
+TXN-10326,2025-01-20,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Toys & Games,1302.46,Bank Transfer
+TXN-10327,2025-05-06,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Sports,526.09,Credit Card
+TXN-10328,2025-04-01,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Automotive,42.21,Bank Transfer
+TXN-10329,2025-03-09,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Books,1032.42,PayPal
+TXN-10330,2025-05-07,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Books,417.19,PayPal
+TXN-10331,2025-09-18,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Books,62.1,PayPal
+TXN-10332,2025-07-01,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Fashion,382.57,Debit Card
+TXN-10333,2025-02-05,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Books,392.23,PayPal
+TXN-10334,2025-11-07,CUST-5820,Sarah Davis,sarah.davis94@company.net,555-780-2894,"885 Broadway, New York, USA",4780-2146-7646-8437,Automotive,789.59,PayPal
+TXN-10335,2025-11-20,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Fashion,682.03,Bank Transfer
+TXN-10336,2025-02-06,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Books,727.21,PayPal
+TXN-10337,2025-11-19,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Books,494.74,Bank Transfer
+TXN-10338,2025-02-14,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Toys & Games,415.84,Debit Card
+TXN-10339,2025-11-28,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Automotive,312.87,Credit Card
+TXN-10340,2025-09-04,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Home & Garden,1209.9,PayPal
+TXN-10341,2025-04-10,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Electronics,419.13,Bank Transfer
+TXN-10342,2025-05-11,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Home & Garden,1053.08,Credit Card
+TXN-10343,2025-08-15,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Books,1336.15,Credit Card
+TXN-10344,2025-06-29,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Books,1227.02,Bank Transfer
+TXN-10345,2025-01-04,CUST-1827,Daniel Johnson,daniel.johnson85@hotmail.com,555-880-2207,"856 Pine St, Chicago, USA",4034-2629-1582-6476,Books,654.35,PayPal
+TXN-10346,2025-05-20,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Fashion,125.5,Debit Card
+TXN-10347,2025-11-12,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Toys & Games,46.19,Bank Transfer
+TXN-10348,2025-06-17,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Automotive,1153.35,Bank Transfer
+TXN-10349,2025-07-03,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Home & Garden,72.79,PayPal
+TXN-10350,2025-08-17,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Electronics,18.27,Bank Transfer
+TXN-10351,2025-08-04,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Fashion,1370.17,PayPal
+TXN-10352,2025-06-02,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Electronics,193.81,Credit Card
+TXN-10353,2025-02-11,CUST-8565,Laura Martinez,laura.martinez27@gmail.com,555-778-1882,"60 Oak Ln, Houston, USA",4304-8076-8745-8044,Automotive,523.3,Bank Transfer
+TXN-10354,2025-11-20,CUST-4186,Jane Davis,jane.davis70@company.net,555-379-6884,"127 Broadway, Chicago, USA",4772-8175-8363-9031,Sports,1073.48,Debit Card
+TXN-10355,2025-05-31,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Automotive,440.12,Bank Transfer
+TXN-10356,2025-04-18,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Toys & Games,775.48,PayPal
+TXN-10357,2025-04-22,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Sports,1360.29,Credit Card
+TXN-10358,2025-08-11,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Toys & Games,643.78,Credit Card
+TXN-10359,2025-03-15,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Home & Garden,113.77,Credit Card
+TXN-10360,2025-01-11,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Toys & Games,895.49,Credit Card
+TXN-10361,2025-10-14,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Home & Garden,634.46,Credit Card
+TXN-10362,2025-10-05,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Fashion,388.62,Credit Card
+TXN-10363,2025-11-21,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Automotive,1130.81,Credit Card
+TXN-10364,2025-10-18,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Electronics,928.62,Debit Card
+TXN-10365,2025-02-18,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Fashion,639.15,Credit Card
+TXN-10366,2025-12-12,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Books,977.75,PayPal
+TXN-10367,2025-09-13,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Books,573.22,Credit Card
+TXN-10368,2025-08-12,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Books,1002.46,Bank Transfer
+TXN-10369,2025-02-04,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Sports,1113.54,PayPal
+TXN-10370,2025-11-03,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Electronics,829.09,Debit Card
+TXN-10371,2025-05-20,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Automotive,316.28,Bank Transfer
+TXN-10372,2025-11-04,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Home & Garden,343.01,Credit Card
+TXN-10373,2025-10-01,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Home & Garden,1447.43,Debit Card
+TXN-10374,2025-12-07,CUST-3516,Robert Garcia,robert.garcia68@gmail.com,555-714-6645,"332 Pine St, Los Angeles, USA",4309-5576-6667-5309,Automotive,93.88,Debit Card
+TXN-10375,2025-06-11,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Toys & Games,487.06,PayPal
+TXN-10376,2025-03-09,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Fashion,929.46,Debit Card
+TXN-10377,2025-04-04,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Books,433.11,Debit Card
+TXN-10378,2025-12-10,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Electronics,16.51,Bank Transfer
+TXN-10379,2025-07-31,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Books,126.74,Bank Transfer
+TXN-10380,2025-04-22,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Fashion,681.46,Credit Card
+TXN-10381,2025-12-26,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Home & Garden,1178.37,PayPal
+TXN-10382,2025-10-13,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Books,935.75,PayPal
+TXN-10383,2025-07-20,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Sports,1188.89,Bank Transfer
+TXN-10384,2025-03-22,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Electronics,376.19,PayPal
+TXN-10385,2025-05-16,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Sports,1480.3,Debit Card
+TXN-10386,2025-09-04,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Books,1107.43,Debit Card
+TXN-10387,2025-08-20,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Fashion,1049.33,Credit Card
+TXN-10388,2025-10-14,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Books,1059.57,Debit Card
+TXN-10389,2025-05-29,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Electronics,1160.03,Bank Transfer
+TXN-10390,2025-10-27,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Automotive,1198.67,Bank Transfer
+TXN-10391,2025-12-07,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Home & Garden,661.63,Debit Card
+TXN-10392,2025-08-15,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Home & Garden,730.04,Credit Card
+TXN-10393,2025-11-14,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Automotive,110.09,Debit Card
+TXN-10394,2025-01-29,CUST-6153,Laura Williams,laura.williams41@gmail.com,555-415-7384,"863 Pine St, New York, USA",4288-2403-3086-9508,Fashion,458.14,Credit Card
+TXN-10395,2025-08-28,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Home & Garden,887.65,PayPal
+TXN-10396,2025-10-20,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Home & Garden,1379.81,Bank Transfer
+TXN-10397,2025-02-28,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Home & Garden,612.99,Debit Card
+TXN-10398,2025-04-07,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Home & Garden,1410.66,PayPal
+TXN-10399,2025-07-12,CUST-5820,Sarah Davis,sarah.davis94@company.net,555-780-2894,"885 Broadway, New York, USA",4780-2146-7646-8437,Home & Garden,1237.77,Credit Card
+TXN-10400,2025-12-23,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Toys & Games,336.55,PayPal
+TXN-10401,2025-02-14,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Automotive,1191.64,Debit Card
+TXN-10402,2025-10-21,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Toys & Games,285.69,PayPal
+TXN-10403,2025-06-07,CUST-9765,Jane Rodriguez,jane.rodriguez40@yahoo.com,555-857-8064,"187 Main St, Phoenix, USA",4122-9372-8129-5747,Sports,171.3,PayPal
+TXN-10404,2025-09-28,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Fashion,245.96,PayPal
+TXN-10405,2025-01-13,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Books,1255.18,PayPal
+TXN-10406,2025-06-29,CUST-9374,Michael Brown,michael.brown42@yahoo.com,555-489-5237,"810 Park Ave, Phoenix, USA",4487-4633-2446-8343,Books,353.57,PayPal
+TXN-10407,2025-07-24,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Automotive,445.64,PayPal
+TXN-10408,2025-10-26,CUST-7905,David Rodriguez,david.rodriguez59@hotmail.com,555-604-5400,"786 Oak Ln, Los Angeles, USA",4518-4993-6085-5075,Books,100.56,Credit Card
+TXN-10409,2025-08-11,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Toys & Games,919.42,Credit Card
+TXN-10410,2025-07-03,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Automotive,1412.33,Bank Transfer
+TXN-10411,2025-03-14,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Home & Garden,800.72,Credit Card
+TXN-10412,2025-02-24,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Electronics,932.17,Debit Card
+TXN-10413,2025-11-03,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Automotive,370.32,PayPal
+TXN-10414,2025-04-21,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Toys & Games,722.73,Debit Card
+TXN-10415,2025-07-27,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Fashion,675.05,PayPal
+TXN-10416,2025-09-10,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Automotive,438.77,Bank Transfer
+TXN-10417,2025-11-16,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Sports,951.01,Debit Card
+TXN-10418,2025-06-17,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Fashion,861.58,Debit Card
+TXN-10419,2025-03-22,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Sports,256.03,PayPal
+TXN-10420,2025-11-16,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Fashion,465.52,PayPal
+TXN-10421,2025-08-24,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Books,509.75,Credit Card
+TXN-10422,2025-09-30,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Toys & Games,189.17,PayPal
+TXN-10423,2025-06-19,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Sports,496.48,Bank Transfer
+TXN-10424,2025-06-21,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Sports,1338.99,Credit Card
+TXN-10425,2025-08-18,CUST-3516,Robert Garcia,robert.garcia68@gmail.com,555-714-6645,"332 Pine St, Los Angeles, USA",4309-5576-6667-5309,Electronics,441.49,Credit Card
+TXN-10426,2025-09-02,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Electronics,995.12,Debit Card
+TXN-10427,2025-03-22,CUST-3516,Robert Garcia,robert.garcia68@gmail.com,555-714-6645,"332 Pine St, Los Angeles, USA",4309-5576-6667-5309,Home & Garden,130.06,Credit Card
+TXN-10428,2025-12-27,CUST-8521,Laura Brown,laura.brown49@yahoo.com,555-138-2498,"64 Oak Ln, New York, USA",4607-4650-7562-2638,Electronics,624.24,Debit Card
+TXN-10429,2025-10-19,CUST-5857,Linda Johnson,linda.johnson10@hotmail.com,555-850-3694,"90 Broadway, Chicago, USA",4518-2107-7973-7741,Automotive,838.43,Credit Card
+TXN-10430,2025-08-22,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Home & Garden,1353.61,Bank Transfer
+TXN-10431,2025-04-11,CUST-4918,Laura Johnson,laura.johnson50@yahoo.com,555-835-1313,"322 Oak Ln, New York, USA",4143-9439-8179-7834,Books,385.4,Credit Card
+TXN-10432,2025-10-11,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Toys & Games,572.2,Credit Card
+TXN-10433,2025-04-20,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Electronics,1201.84,PayPal
+TXN-10434,2025-06-25,CUST-2787,Robert Miller,robert.miller28@yahoo.com,555-822-2404,"791 Oak Ln, Los Angeles, USA",4634-4451-7014-4935,Books,559.82,Credit Card
+TXN-10435,2025-02-04,CUST-7262,David Brown,david.brown17@company.net,555-127-2169,"344 Broadway, Chicago, USA",4241-2445-6845-2022,Electronics,124.84,Bank Transfer
+TXN-10436,2025-07-21,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Toys & Games,524.35,Debit Card
+TXN-10437,2025-12-14,CUST-7876,John Williams,john.williams64@yahoo.com,555-391-8231,"15 Cedar Dr, Chicago, USA",4245-6101-3294-7226,Electronics,1286.48,Bank Transfer
+TXN-10438,2025-05-15,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Toys & Games,889.99,PayPal
+TXN-10439,2025-08-10,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Books,709.3,Bank Transfer
+TXN-10440,2025-05-07,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Electronics,492.37,PayPal
+TXN-10441,2025-09-13,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Home & Garden,935.66,Bank Transfer
+TXN-10442,2025-06-01,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Books,244.01,Debit Card
+TXN-10443,2025-09-28,CUST-2004,Sarah Martinez,sarah.martinez81@hotmail.com,555-353-4570,"642 Broadway, Chicago, USA",4942-3108-1414-6373,Toys & Games,1450.81,Credit Card
+TXN-10444,2025-04-12,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Toys & Games,606.59,Bank Transfer
+TXN-10445,2025-10-10,CUST-1879,Robert Smith,robert.smith55@gmail.com,555-377-8972,"544 Cedar Dr, Houston, USA",4853-3074-8367-7590,Home & Garden,1427.21,PayPal
+TXN-10446,2025-03-12,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Sports,1089.85,Debit Card
+TXN-10447,2025-05-16,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Books,1386.3,Debit Card
+TXN-10448,2025-05-17,CUST-1827,Daniel Johnson,daniel.johnson85@hotmail.com,555-880-2207,"856 Pine St, Chicago, USA",4034-2629-1582-6476,Sports,826.7,Bank Transfer
+TXN-10449,2025-05-22,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Fashion,1139.57,Credit Card
+TXN-10450,2025-04-28,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Fashion,306.8,Credit Card
+TXN-10451,2025-04-16,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Home & Garden,1179.34,PayPal
+TXN-10452,2025-05-27,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Sports,1423.29,Credit Card
+TXN-10453,2025-07-25,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Home & Garden,341.23,PayPal
+TXN-10454,2025-05-28,CUST-7204,David Brown,david.brown48@hotmail.com,555-890-6797,"679 Pine St, Phoenix, USA",4738-7212-8187-8998,Automotive,636.08,PayPal
+TXN-10455,2025-04-26,CUST-8086,Sarah Williams,sarah.williams26@hotmail.com,555-473-5644,"82 Broadway, New York, USA",4709-8390-6661-7160,Sports,341.58,Bank Transfer
+TXN-10456,2025-09-09,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Fashion,333.91,PayPal
+TXN-10457,2025-05-23,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Sports,242.69,Debit Card
+TXN-10458,2025-07-06,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Automotive,49.12,PayPal
+TXN-10459,2025-11-29,CUST-1743,Daniel Smith,daniel.smith89@yahoo.com,555-322-9664,"568 Park Ave, Phoenix, USA",4522-3619-6527-2579,Automotive,227.54,PayPal
+TXN-10460,2025-07-11,CUST-6729,Laura Martinez,laura.martinez36@yahoo.com,555-548-8537,"745 Park Ave, Houston, USA",4024-8285-4149-1636,Automotive,17.21,PayPal
+TXN-10461,2025-06-18,CUST-9082,Jane Martinez,jane.martinez47@yahoo.com,555-761-9486,"656 Park Ave, Houston, USA",4441-8887-9628-7385,Books,597.86,PayPal
+TXN-10462,2025-08-03,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Books,1244.77,Credit Card
+TXN-10463,2025-02-12,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Toys & Games,1128.08,Debit Card
+TXN-10464,2025-01-09,CUST-9204,Daniel Williams,daniel.williams62@company.net,555-587-7476,"647 Cedar Dr, Phoenix, USA",4076-1738-2851-6712,Fashion,1458.42,Debit Card
+TXN-10465,2025-11-15,CUST-6270,Linda Smith,linda.smith34@hotmail.com,555-810-2595,"258 Broadway, New York, USA",4420-7055-5426-4578,Automotive,1238.61,PayPal
+TXN-10466,2025-09-16,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Automotive,1387.41,Bank Transfer
+TXN-10467,2025-12-10,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Toys & Games,744.2,PayPal
+TXN-10468,2025-04-24,CUST-2537,Daniel Rodriguez,daniel.rodriguez24@gmail.com,555-212-8429,"327 Main St, Los Angeles, USA",4547-3760-9465-8117,Home & Garden,568.22,Credit Card
+TXN-10469,2025-10-21,CUST-5427,Sarah Rodriguez,sarah.rodriguez61@hotmail.com,555-498-8736,"155 Cedar Dr, Los Angeles, USA",4811-9841-3531-9520,Electronics,814.78,PayPal
+TXN-10470,2025-05-26,CUST-2379,Linda Miller,linda.miller67@gmail.com,555-385-4637,"999 Park Ave, New York, USA",4474-4987-6928-3146,Sports,244.13,Bank Transfer
+TXN-10471,2025-11-13,CUST-8256,Jane Martinez,jane.martinez15@hotmail.com,555-963-1356,"965 Main St, Los Angeles, USA",4767-5472-5773-1730,Sports,1089.99,Debit Card
+TXN-10472,2025-05-30,CUST-4186,Jane Davis,jane.davis70@company.net,555-379-6884,"127 Broadway, Chicago, USA",4772-8175-8363-9031,Sports,418.78,Debit Card
+TXN-10473,2025-01-05,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Fashion,773.99,Credit Card
+TXN-10474,2025-07-14,CUST-5112,David Jones,david.jones78@yahoo.com,555-353-4971,"498 Cedar Dr, Phoenix, USA",4414-4434-7614-6979,Electronics,1174.27,Bank Transfer
+TXN-10475,2025-02-21,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Fashion,1206.93,Bank Transfer
+TXN-10476,2025-07-25,CUST-2422,Sarah Smith,sarah.smith67@company.net,555-804-6929,"765 Broadway, Los Angeles, USA",4670-7912-2994-8789,Electronics,1280.4,PayPal
+TXN-10477,2025-08-27,CUST-4590,Robert Williams,robert.williams55@company.net,555-898-5209,"989 Cedar Dr, New York, USA",4137-5338-4402-7571,Toys & Games,731.03,Debit Card
+TXN-10478,2025-07-31,CUST-1827,Daniel Johnson,daniel.johnson85@hotmail.com,555-880-2207,"856 Pine St, Chicago, USA",4034-2629-1582-6476,Electronics,1293.73,PayPal
+TXN-10479,2025-08-20,CUST-1123,Robert Miller,robert.miller8@gmail.com,555-833-9623,"929 Oak Ln, New York, USA",4521-4705-9069-3951,Automotive,1016.65,Bank Transfer
+TXN-10480,2025-11-07,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Home & Garden,1251.37,Credit Card
+TXN-10481,2025-10-01,CUST-4094,Emily Jones,emily.jones27@yahoo.com,555-600-7651,"141 Cedar Dr, Chicago, USA",4888-1939-4182-9918,Books,998.82,Credit Card
+TXN-10482,2025-03-04,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Automotive,956.72,Credit Card
+TXN-10483,2025-03-12,CUST-3877,Sarah Miller,sarah.miller39@gmail.com,555-861-2558,"665 Pine St, Houston, USA",4760-3922-4140-5688,Sports,216.22,PayPal
+TXN-10484,2025-08-16,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Toys & Games,1121.79,Credit Card
+TXN-10485,2025-05-15,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Automotive,200.79,Debit Card
+TXN-10486,2025-09-22,CUST-9930,Linda Garcia,linda.garcia41@company.net,555-181-4478,"346 Park Ave, New York, USA",4152-2680-6345-2270,Electronics,415.53,PayPal
+TXN-10487,2025-06-18,CUST-4122,Laura Williams,laura.williams62@gmail.com,555-473-2799,"421 Park Ave, Houston, USA",4775-6804-1347-9243,Books,610.81,Bank Transfer
+TXN-10488,2025-07-09,CUST-1144,Linda Martinez,linda.martinez35@gmail.com,555-213-4558,"148 Cedar Dr, Phoenix, USA",4976-9007-5317-5087,Electronics,1181.29,PayPal
+TXN-10489,2025-06-26,CUST-3803,John Johnson,john.johnson19@hotmail.com,555-891-2554,"640 Park Ave, Houston, USA",4931-4173-3964-8175,Toys & Games,1146.51,PayPal
+TXN-10490,2025-09-24,CUST-8403,John Davis,john.davis29@company.net,555-781-2040,"363 Main St, Houston, USA",4032-9303-8233-2239,Home & Garden,1346.56,Debit Card
+TXN-10491,2025-03-28,CUST-9754,Robert Miller,robert.miller92@gmail.com,555-289-6337,"601 Park Ave, Los Angeles, USA",4951-1803-5866-3915,Automotive,1205.17,PayPal
+TXN-10492,2025-05-03,CUST-7015,Sarah Martinez,sarah.martinez94@company.net,555-569-1401,"534 Cedar Dr, Houston, USA",4326-2837-4027-5568,Toys & Games,646.72,Bank Transfer
+TXN-10493,2025-08-05,CUST-3930,Sarah Brown,sarah.brown75@gmail.com,555-635-5747,"334 Cedar Dr, New York, USA",4292-3524-8896-7183,Fashion,705.68,Debit Card
+TXN-10494,2025-07-18,CUST-7751,Emily Brown,emily.brown18@company.net,555-825-4937,"617 Pine St, New York, USA",4015-8086-5608-7176,Books,604.07,Credit Card
+TXN-10495,2025-09-28,CUST-1204,Robert Brown,robert.brown17@company.net,555-770-2393,"556 Cedar Dr, Los Angeles, USA",4694-1378-1149-7641,Fashion,840.58,Bank Transfer
+TXN-10496,2025-04-21,CUST-3896,Sarah Miller,sarah.miller10@hotmail.com,555-325-5618,"644 Main St, Phoenix, USA",4993-7487-1578-3352,Sports,277.22,Debit Card
+TXN-10497,2025-08-16,CUST-3775,Robert Miller,robert.miller20@yahoo.com,555-585-9135,"402 Cedar Dr, New York, USA",4022-2570-5903-5101,Sports,1364.2,Bank Transfer
+TXN-10498,2025-05-26,CUST-4904,Robert Miller,robert.miller85@yahoo.com,555-864-4570,"746 Park Ave, New York, USA",4336-9934-7732-4099,Sports,331.49,Bank Transfer
+TXN-10499,2025-02-27,CUST-6820,Robert Rodriguez,robert.rodriguez41@yahoo.com,555-816-7792,"80 Pine St, Phoenix, USA",4398-6429-3060-7926,Toys & Games,123.24,Credit Card
