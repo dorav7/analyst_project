@@ -15,7 +15,7 @@ SENSITIVE_PATTERNS = ['email', 'phone', 'credit_card', 'ssn', 'password', 'addre
 mcp = FastMCP("My MCP Server")
 
 # CSV_FILE_PATH = "Online Sales Data.csv"
-CSV_FILE_PATH = "sensitive_sales_data.csv"
+CSV_FILE_PATH = "sensitive_sales_data_v2.csv"
 
 def _mask_pii(df: pd.DataFrame) -> pd.DataFrame:
     """
