@@ -2,15 +2,41 @@ import pandas as pd
 import duckdb
 from fastmcp import FastMCP
 import os
+import re
 from dotenv import load_dotenv 
 load_dotenv()
 
 
 TABLE_NAME = 'data'
 
+# Privacy by Design: Sensitive patterns for PII detection
+SENSITIVE_PATTERNS = ['email', 'phone', 'credit_card', 'ssn', 'password', 'address', 'name', 'zip', 'postal']
+
 mcp = FastMCP("My MCP Server")
 
 CSV_FILE_PATH = "Online Sales Data.csv"
+
+def _mask_pii(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Privacy by Design: PII masking middleware
+    Masks personally identifiable information in DataFrame columns
+    """
+    masked_df = df.copy()
+    
+    for col in masked_df.columns:
+        col_lower = col.lower()
+        
+        # Logic A: Column name match
+        if any(pattern in col_lower for pattern in SENSITIVE_PATTERNS):
+            masked_df[col] = "[REDACTED]"
+        
+        # Logic B: Content regex for email detection
+        elif pd.api.types.is_string_dtype(masked_df[col]):
+            email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+            if masked_df[col].str.contains(email_pattern, na=False, regex=True).any():
+                masked_df[col] = masked_df[col].str.replace(email_pattern, '[EMAIL_REDACTED]', regex=True, flags=re.IGNORECASE)
+    
+    return masked_df
 
 @mcp.tool
 def get_data_schema() -> dict:
@@ -35,9 +61,16 @@ def get_data_schema() -> dict:
         }
         
         for col in df.columns:
+            col_lower = col.lower()
             col_info = {"data_type": str(df[col].dtype)}
             
-            if pd.api.types.is_numeric_dtype(df[col]):
+            # Privacy by Design: Check for sensitive columns
+            is_sensitive = any(pattern in col_lower for pattern in SENSITIVE_PATTERNS)
+            
+            if is_sensitive:
+                col_info["data_type"] = "PROTECTED"
+                # Skip sample values for sensitive columns to prevent PII leakage
+            elif pd.api.types.is_numeric_dtype(df[col]):
                 col_info["min"] = float(df[col].min())
                 col_info["max"] = float(df[col].max())
                 col_info["sample_values"] = df[col].dropna().head(3).tolist()
@@ -62,6 +95,9 @@ def run_sql_query(query: str) -> str:
         con = duckdb.connect(database=':memory:')
         con.execute(f"CREATE TABLE {TABLE_NAME} AS SELECT * FROM read_csv_auto('{CSV_FILE_PATH}')")
         result_df = con.execute(query).df()
+        
+        # SECURITY LAYER: Applying PII Masking Middleware
+        result_df = _mask_pii(result_df)
         
         if result_df.empty:
             return "Query executed successfully but returned no results."
